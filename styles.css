@@ -1,13 +1,13 @@
 body {
-    background-image: url("weather-app-2/weather.jpeg");
+    background-image: url("weather.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .container {
     position: relative;
-    top: 20px;
-    max-width: 90%;
+    top: 90px;
+    width: 100%;
     border-radius: 15px;
     background-image: linear-gradient(
       to bottom,
@@ -21,14 +21,12 @@ body {
     color: #fff;
     font-weight: 900;
     font-size: 40px;
-    position: relative;
-    left: 220px;
-    top: 20px;
+    text-align: center;
   }
   #geolocation {
     font-family: "Lato", sans-serif;
     position: relative;
-    left: 220px;
+    left:395px;
     top: 35px;
     border-radius: 5px;
     font-size: 18px;
@@ -37,7 +35,7 @@ body {
   #search-city {
     font-family: "Lato", sans-serif;
     position: relative;
-    left: 255px;
+    right: -430px;
     width: 400px;
     font-size: 20px;
     border-radius: 5px;
@@ -47,7 +45,7 @@ body {
     font-family: "Roboto", sans-serif;
     width: auto;
     position: relative;
-    left: 255px;
+    left: 430px;
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -66,8 +64,7 @@ body {
     color: #fff;
     font-weight: 600;
     font-size: 40px;
-    position: relative;
-    left: 410px;
+    text-align: center;
   }
   
   #date {
@@ -75,8 +72,7 @@ body {
     font-size: 20px;
     font-weight: 800;
     color: #fff;
-    position: relative;
-    left: 400px;
+    text-align: center;
   }
   
   #time {
@@ -84,18 +80,18 @@ body {
     font-size: 20px;
     font-weight: 800;
     color: #fff;
-    position: relative;
-    left: 450px;
+    text-align: center;
   }
   
   .temperature {
-    position: relative;
-    left: 400px;
+    text-align: center;
     font-family: "Lato", sans-serif;
     color: #fff;
     font-size: 145px;
-    top: -45px;
-  }
+    position: relative;
+    top: -30px;
+    left: 15px;
+   }
   
   .celsius {
     font-size: 50px;
@@ -113,7 +109,7 @@ body {
     list-style: none;
     position: relative;
     top: -170px;
-    right: -140px;
+    right: -340px;
   }
   
   #atmosphere {
@@ -121,8 +117,7 @@ body {
     font-size: 20px;
     font-weight: 800;
     color: #fff;
-    position: relative;
-    left: 460px;
+    text-align: center;
   }
   
   .monday,
@@ -132,8 +127,8 @@ body {
   .friday,
   .saturday {
     position: relative;
-    left: 360px;
-    top: -110px;
+    left: 450px;
+    top: -100px;
     color: #fff;
     font-family: "Lato", sans-serif;
     font-weight: bold;
